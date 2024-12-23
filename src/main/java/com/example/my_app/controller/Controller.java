@@ -11,6 +11,6 @@ public class Controller {
     @GetMapping("/test")
     @ResponseBody
     public Object test() {
-        return  "this is test endpoint for microservice";
+        return  "this is test endpoint for microservice !!";
     }
 }
